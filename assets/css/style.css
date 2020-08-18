@@ -1,8 +1,25 @@
+body {
+    font-family: 'Assistant', sans-serif;
+}
+.bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+.lighty{
+    font-weight: 200;
+}
+.rayablanca{
+    border: 1px solid;
+    width: 9rem;
+}
+.logo {
+    font-size: 3rem;
+}
 .hero-section {
     background-image: url('../img/bg_hero.png');
     background-repeat: no-repeat;
     background-color: darkslateblue;
     background-size: cover;
     padding: 7rem 3rem 1rem 3rem;
+    height: 100vh;
     
 }
