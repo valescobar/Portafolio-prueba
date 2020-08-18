@@ -1,0 +1,9 @@
+.hero-section {
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-color: darkslateblue;
+    background-size: cover;
+    padding: 7rem 3rem 1rem 3rem;
+
+
+}
