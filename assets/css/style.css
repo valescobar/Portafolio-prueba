@@ -11,15 +11,46 @@ body {
     border: 1px solid;
     width: 9rem;
 }
+.divisor{
+    border: 2px solid;
+    width: 5rem;
+
+}
 .logo {
     font-size: 3rem;
 }
 .hero-section {
+    position: relative;
     background-image: url('../img/bg_hero.png');
     background-repeat: no-repeat;
     background-color: darkslateblue;
+    background-position: center;
     background-size: cover;
     padding: 7rem 3rem 1rem 3rem;
     height: 100vh;
-    
+}
+h1 {
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    margin-left: -5rem;
+}
+h2 {
+    font-size: 3rem;
+}
+p.interlineado {
+    line-height: 2.5rem;
+}
+.rrss {
+    padding-inline-start: 1rem;
+}
+.rrss li {
+    display: inline-block;
+    padding-right: 1rem;
+}
+@media (max-width: 576px) {
+    .history {
+        display: none;
+    }
 }
