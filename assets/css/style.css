@@ -1,5 +1,6 @@
 body {
     font-family: 'Assistant', sans-serif;
+    color: #3a3a3a;
 }
 .bebas {
     font-family: 'Bebas Neue', cursive;
@@ -39,8 +40,23 @@ h1 {
 h2 {
     font-size: 3rem;
 }
+.dosrem {
+    font-size: 2rem;
+}
 p.interlineado {
     line-height: 2.5rem;
+}
+.experienciamobile {
+    display: none;
+}
+.carousel-indicators{
+    position: relative;
+}
+.carousel-indicators li {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #8d8d8d;
 }
 .rrss {
     padding-inline-start: 1rem;
@@ -52,5 +68,12 @@ p.interlineado {
 @media (max-width: 576px) {
     .history {
         display: none;
+
+    }
+    .experiencia {
+        display: none;
+    }
+    .experienciamobile {
+        display: block;
     }
 }
